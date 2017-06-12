@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Loews Hotels Metrics Table" max_length="40" name="x_lohar_lhmetrics_x_lohar_lhmetrics" type="collection">
+        <element label="availability" max_length="32" name="availability" type="boolean"/>
+        <element label="comments and work notes" max_length="4000" name="comments_and_work_notes" type="journal_list"/>
+        <element label="Estimated Duration" max_length="40" name="duration" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Hotels" max_length="40" name="hotels" reference="cmn_location" reference_qual="sys_idINjavascript:getUserHotelLocation()^EQ" reference_qual_condition="sys_idINjavascript:getUserHotelLocation()^EQ" type="glide_list"/>
+        <element label="Incident" max_length="32" name="incident" reference="incident" type="reference"/>
+        <element label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" reference_qual="sys_idINjavascript:getUserHotelLocation()^EQ" reference_qual_condition="sys_idINjavascript:getUserHotelLocation()^EQ" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Planned" max_length="32" name="planned" type="boolean"/>
+        <element label="Reason" max_length="4000" name="reason" type="string"/>
+        <element label="Remedy" max_length="4000" name="remedy" type="string"/>
+        <element label="Scheduled Time" max_length="40" name="scheduled_time" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="System" max_length="32" name="system" reference="cmdb_ci" reference_qual="company=c883655441e7d000507e1df1760a01a7^sys_class_name=u_system^EQ" reference_qual_condition="company=c883655441e7d000507e1df1760a01a7^sys_class_name=u_system^EQ" type="reference"/>
+        <index name="index">
+            <element name="system"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="incident"/>
+        </index>
+    </element>
+</database>

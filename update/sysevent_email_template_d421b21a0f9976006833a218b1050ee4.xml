@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_lohar_lhmetrics_x_lohar_lhmetrics</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="hotels_logo.pngx" alt="" width="387" height="39" align="center" /></div>
+<div>&nbsp;</div>
+<div>&nbsp;&nbsp;</div>
+<div>&nbsp;</div>
+<div><font size="5" face="journal"><strong>Disruption of Service Notice Advisory - ${system}</strong></font></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><strong>Application/Service(s) Impacted: &nbsp; ${system}<br /><br /></strong></div>
+<div><strong>Availability Disruption<strong>: Y/N &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;${availability}</strong></strong></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><strong><font size="4">Comments:</font></strong></div>
+<div>&nbsp;${event}</div>
+<div>&nbsp;</div>
+<div>We apologize for any inconvenience</div>
+<div><strong>Questions Contact Information: </strong><em>The Loews Hotels IT User Service Desk at 1-877-748-1469 or <a title="help@loewshotels.com" href="mailto:help@loewshotels.com">help@loewshotels.com</a></em>&nbsp;</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>lhmetric.disruption</name>
+        <sms_alternate/>
+        <subject>Disruption of Service Notice Advisory - $ {system}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-03-06 22:08:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d421b21a0f9976006833a218b1050ee4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>lhmetric.disruption</sys_name>
+        <sys_package display_value="Loews Hotels Metrics" source="x_lohar_lhmetrics">5229e5ae0f2aa200730d6509b1050ecb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Metrics">5229e5ae0f2aa200730d6509b1050ecb</sys_scope>
+        <sys_update_name>sysevent_email_template_d421b21a0f9976006833a218b1050ee4</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-03-07 14:32:42</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="b96afd660f6aa200730d6509b1050e5c" sys_domain="global" table="x_lohar_lhmetrics_x_lohar_lhmetrics" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2016-10-21 19:48:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>316afd660f6aa200730d6509b1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lohar_lhmetrics_x_lohar_lhmetrics" name="x_lohar_lhmetrics_x_lohar_lhmetrics" sys_domain="global" view="Default view">b96afd660f6aa200730d6509b1050e5c</sys_ui_form>
+            <sys_ui_section caption="Loews Hotels Downtime" display_value="Loews Hotels Downtime" name="x_lohar_lhmetrics_x_lohar_lhmetrics" sys_domain="global" view="Default view">e0413d220f6aa200730d6509b1050edc</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2016-10-21 19:48:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_lohar_lhmetrics_x_lohar_lhmetrics</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2016-10-21 19:48:06</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>b96afd660f6aa200730d6509b1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_lohar_lhmetrics_x_lohar_lhmetrics</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loews Hotels Metrics" source="x_lohar_lhmetrics">5229e5ae0f2aa200730d6509b1050ecb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Loews Hotels Metrics">5229e5ae0f2aa200730d6509b1050ecb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b96afd660f6aa200730d6509b1050e5c</sys_update_name>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2016-10-21 19:48:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

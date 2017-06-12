@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loews Hotels Metrics">b32929ae0f2aa200730d6509b1050e16</application>
+        <filter/>
+        <name>Loews Hotels Metrics Table</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>lhmetrics.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2016-10-21 18:32:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3b2929ae0f2aa200730d6509b1050e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loews Hotels Metrics Table</sys_name>
+        <sys_package display_value="Loews Hotels Metrics" source="x_lohar_lhmetrics">5229e5ae0f2aa200730d6509b1050ecb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Metrics">5229e5ae0f2aa200730d6509b1050ecb</sys_scope>
+        <sys_update_name>sys_ui_module_3b2929ae0f2aa200730d6509b1050e16</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2016-10-21 18:32:52</sys_updated_on>
+        <table>x_lohar_lhmetrics_x_lohar_lhmetrics</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <enforce_license>log</enforce_license>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_model>none</license_model>
+        <logo/>
+        <menu display_value="Loews Hotels Metrics">2e29e5ae0f2aa200730d6509b1050ed7</menu>
+        <name>Loews Hotels Metrics</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_lohar_lhmetrics</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_lohar_lhmetrics</source>
+        <store_correlation_id>REPOAPP0000014173</store_correlation_id>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2016-10-21 18:32:47</sys_created_on>
+        <sys_id>5229e5ae0f2aa200730d6509b1050ecb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2016-10-21 19:02:37</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_lohar_lhmetrics.lhmetric" name="x_lohar_lhmetrics.lhmetric">6629e5ae0f2aa200730d6509b1050ed8</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+</record_update>
